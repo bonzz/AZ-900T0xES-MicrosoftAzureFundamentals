@@ -1,9 +1,9 @@
 [ {
-  "Name": "Create blob storage",
-  "Language": "English",
+  "Name": "Crear almacenamiento de blobs",
+  "Language": "Spanish",
   "Files": [
     {
-      "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/AZ-900T0x-MicrosoftAzureFundamentals/prod/Instructions/CloudLabs.AI/04-Create%20Blob%20storage.md",
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/AZ-900T0xES-MicrosoftAzureFundamentals/prod/Instructions/CloudLabs.AI/04-Create%20Blob%20storage.md",
       "Order": 1
     }
   ]

@@ -1,9 +1,9 @@
 [ {
-  "Name": "Access Azure Preview features",
-  "Language": "English",
+  "Name": "Acceda a las funciones de Vista previa de Azure",
+  "Language": "Spanish",
   "Files": [
     {
-      "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/AZ-900T0x-MicrosoftAzureFundamentals/prod/Instructions/CloudLabs.AI/23-Access%20Azure%20Preview%20features.md",
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/AZ-900T0xES-MicrosoftAzureFundamentals/prod/Instructions/CloudLabs.AI/23-Access%20Azure%20Preview%20features.md",
       "Order": 1
     }
   ]

@@ -18,7 +18,7 @@ En este tutorial, crearemos un Azure Key Vault y luego crearemos un secreto de c
     | Configuración | Valor | 
     | --- | --- |
     | Suscripción | **Use su suscripción** |
-    | Grupo de recursos | **myRGKV-[deployId]** (crear nuevo) |
+    | Grupo de recursos | **myRGKV-[deployId]** (usar existente) |
     | Nombre del almacén de claves | **keyvaulttestxxx** |
     | Ubicación | **Este de EE. UU.** |
     | Plan de tarifas | **Estándar** |

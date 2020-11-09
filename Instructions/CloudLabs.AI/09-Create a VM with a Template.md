@@ -34,7 +34,7 @@ En esta tarea, examinaremos la galería Azure QuickStart e implementaremos una p
     | Configuración| Valor|
     |----|----|
     | Suscripción | **Elija su suscripción**|
-    | Grupo de recursos | **myRGTemplate-[deployId]** (crear nuevo) |
+    | Grupo de recursos | **myRGTemplate-[deployId]** (usar existente) |
     | Ubicación | **Este de EE. UU.** |
     | Nombre del usuario administrador | **azureuser** |
     | Contraseña del administrador | **Pa$$w0rd1234** |

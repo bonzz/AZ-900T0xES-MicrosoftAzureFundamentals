@@ -1,9 +1,9 @@
 [ {
-  "Name": "Create a virtual machine in the portal",
-  "Language": "English",
+  "Name": "Crear una máquina virtual en el portal",
+  "Language": "Spanish",
   "Files": [
     {
-      "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/AZ-900T0x-MicrosoftAzureFundamentals/prod/Instructions/CloudLabs.AI/01-Create%20a%20virtual%20machine.md",
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/AZ-900T0xES-MicrosoftAzureFundamentals/prod/Instructions/CloudLabs.AI/01-Create%20a%20virtual%20machine.md",
       "Order": 1
     }
   ]

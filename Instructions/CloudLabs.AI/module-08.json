@@ -1,9 +1,9 @@
 [ {
-  "Name": "Create a Web App",
-  "Language": "English",
+  "Name": "Crear una aplicaci�n web",
+  "Language": "Spanish",
   "Files": [
     {
-      "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/AZ-900T0x-MicrosoftAzureFundamentals/prod/Instructions/CloudLabs.AI/08-Create%20a%20Web%20App.md",
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/AZ-900T0xES-MicrosoftAzureFundamentals/prod/Instructions/CloudLabs.AI/08-Create%20a%20Web%20App.md",
       "Order": 1
     }
   ]

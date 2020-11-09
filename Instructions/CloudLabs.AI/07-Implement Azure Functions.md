@@ -20,7 +20,7 @@ En esta tarea, crearemos un aplicación de funciones.
     | Configuración | Valor |
     | -- | --|
     | Suscripción | el nombre de su suscripción de Azure |
-    | Grupo de recursos | el nombre de un nuevo grupo de recursos **myRGFunction-[deployId]** |
+    | Grupo de recursos | el nombre del grupo de recursos existente **myRGFunction-[deployId]**** |
     | Nombre de la aplicación de funciones | **función-xxxx** |
     | Publicar | **Código** |
     | Pila de tiempo de ejecución | **NET Core** |

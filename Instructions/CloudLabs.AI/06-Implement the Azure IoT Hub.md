@@ -20,7 +20,7 @@ En esta tarea, crearemos un centro de IoT.
     | Configuración | Valor |
     |--|--|
     | Suscripción | **Elija su suscripción** |
-    | Grupo de recursos |  **myRGIoT-[deployId]** (crear nuevo)|
+    | Grupo de recursos |  **myRGIoT-[deployId]** (usar existente)|
     | Región | **Este de EE. UU.** |
     | Nombre del centro de IoT | **my-hub-groupxxxx** |
     | | |	

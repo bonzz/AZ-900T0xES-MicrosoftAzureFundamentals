@@ -1,9 +1,9 @@
 [ {
-  "Name": "Calculate Composite SLAs",
-  "Language": "English",
+  "Name": "Calcular el Acuerdo de nivel de servicio compuesto",
+  "Language": "Spanish",
   "Files": [
     {
-      "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/AZ-900T0x-MicrosoftAzureFundamentals/prod/Instructions/CloudLabs.AI/22-Calculate%20Composite%20SLAs.md",
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/AZ-900T0xES-MicrosoftAzureFundamentals/prod/Instructions/CloudLabs.AI/22-Calculate%20Composite%20SLAs.md",
       "Order": 1
     }
   ]

@@ -52,7 +52,7 @@ En esta tarea probaremos la directiva Ubicación permitida.
     | Valor | Valor | 
     | --- | --- |
     | Suscripción | **Use su suscripción** |
-    | Grupo de recursos | **myRGPolicy** (crear nuevo) |
+    | Grupo de recursos | **myRGPolicy** (usar existente) |
     | Nombre de la cuenta de almacenamiento | **storageaccountxxxx** |
     | Ubicación | **Este de EE. UU.** |
     | | |

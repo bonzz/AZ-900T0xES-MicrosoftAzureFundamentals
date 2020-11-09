@@ -21,7 +21,7 @@ En esta tarea, crearemos una base de datos SQL según la base de datos de muestr
     | Valor | Valor | 
     | --- | --- |
     | Suscripción | **Elija su suscripción** |
-    | Grupo de recursos | **myRGDb-[deployId]** (crear nuevo) |
+    | Grupo de recursos | **myRGDb-[deployId]** (usar existente) |
     | Nombre de la base de datos| **db1** | 
     | | |
 

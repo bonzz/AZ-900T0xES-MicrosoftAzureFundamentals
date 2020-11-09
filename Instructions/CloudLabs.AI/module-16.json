@@ -1,9 +1,9 @@
 [ {
-  "Name": "Manage resource locks",
-  "Language": "English",
+  "Name": "Administrar bloqueos de recursos",
+  "Language": "Spanish",
   "Files": [
     {
-      "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/AZ-900T0x-MicrosoftAzureFundamentals/prod/Instructions/CloudLabs.AI/16-Manage%20resource%20locks.md",
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/AZ-900T0xES-MicrosoftAzureFundamentals/prod/Instructions/CloudLabs.AI/16-Manage%20resource%20locks.md",
       "Order": 1
     }
   ]

@@ -21,7 +21,7 @@ En esta tarea, crearemos una nueva instancia de contenedor para la aplicación w
 	| Configuración| Valor|
 	|----|----|
 	| Suscripción | **Elija su suscripción** |
-	| Grupo de recursos | **myRGContainer-[deployId]** (crear nuevo) |
+	| Grupo de recursos | **myRGContainer-[deployId]** (usar existente) |
 	| Nombre del contenedor| **mycontainer**|
 	| Región | **Este de EE. UU.** |
 	| Fuente de imagen| **Docker Hub u otro registro**|

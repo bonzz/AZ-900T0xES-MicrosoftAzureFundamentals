@@ -20,7 +20,7 @@ En esta tarea crearemos una nueva cuenta de almacenamiento.
     | Configuración | Valor | 
     | --- | --- |
     | Suscripción | **Elija su suscripción** |
-    | Grupo de recursos | **myRGStorage-[deployId]** (crear nuevo) |
+    | Grupo de recursos | **myRGStorage-[deployId]** (usar existente) |
     | Nombre de la cuenta de almacenamiento | **storageaccountxxxx** |
     | Ubicación | **Este de EE. UU.**  |
     | Rendimiento | **Estándar** |

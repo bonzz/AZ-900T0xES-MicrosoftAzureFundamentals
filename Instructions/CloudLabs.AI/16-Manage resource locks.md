@@ -7,7 +7,7 @@ wts:
 
 En este tutorial, crearemos un grupo de recursos, añadiremos un bloqueo al grupo de recursos y probaremos su eliminación, probaremos la eliminación de un recurso en el grupo de recursos y quitaremos el bloqueo de recursos. 
 
-# Tarea 1: Crear un grupo de recursos
+# Tarea 1: Compruebe el grupo de recursos existente
 
 En esta tarea, crearemos un grupo de recursos para este ejercicio. 
 

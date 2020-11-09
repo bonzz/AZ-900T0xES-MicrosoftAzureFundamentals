@@ -22,7 +22,7 @@ En esta tarea, crearemos una red virtual.
     | Nombre | **vnet1** |
     | Espacio de direcciones |**10.1.0.0/16** |
     | Suscripción | **Seleccione su suscripción** |
-    | Grupo de recursos | **myRGVNet-[deployId]** (crear nuevo) |
+    | Grupo de recursos | **myRGVNet-[deployId]** (usar existente) |
     | Ubicación | **Este de EE. UU.** |
     | Subred - Nombre | **predeterminado** |
     | Rango de dirección de subred | **10.1.0.0/24** |

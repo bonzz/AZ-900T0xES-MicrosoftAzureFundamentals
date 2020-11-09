@@ -21,7 +21,7 @@ En esta tarea, configuraremos Cloud Shell.
 
 4. Cuando se le solicite seleccionar **Bash** o **PowerShell**, seleccione **PowerShell**. 
 
-5. Cuando se le solicite, haga clic en **Crear almacenamiento** y espere a que Azure Cloud Shell se inicialice. 
+5. Cuando se le solicite, seleccione **Mostrar configuraci�n avanzada** y, a continuaci�n, seleccione **usar existente** y elija el grupo de recursos existente. A continuaci�n, seleccione **crear nuevo** en la cuenta de almacenamiento, as� como el recurso compartido de archivos y proporcionar un valor �nico en ambos campos y luego haga clic en **Crear almacenamiento** y espere a que Azure Cloud Shell se inicialice. 
 
 # Tarea 2: Crear un grupo de recursos y una máquina virtual
 

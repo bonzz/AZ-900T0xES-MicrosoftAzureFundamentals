@@ -22,7 +22,7 @@ En esta tarea, creará una aplicación web de Azure App Service.
     | Configuración | Valor |
     | -- | -- |
     | Suscripción | **Elija su suscripción** |
-    | Grupo de recursos | **myRGWebApp1-[deployId]** (crear nuevo) |
+    | Grupo de recursos | **myRGWebApp1-[deployId]** (usar existente) |
     | Nombre | **myDockerWebAppxxxx** |
     | Publicar | **Contenedor de Docker** |
     | Sistema operativo | **Linux** |
