@@ -1,8 +1,3 @@
----
-wts:
-    title: '12 - Implementar Azure Key Vault (5 min)'
-    module: 'Módulo 04: Descripción de las características de seguridad general y de seguridad de red'
----
 # 12 - Implementar Azure Key Vault
 
 En este tutorial, crearemos un Azure Key Vault y luego crearemos un secreto de contraseña en ese almacén de claves, lo que le proporciona una contraseña almacenada de forma segura y administrada de manera centralizada para su uso con aplicaciones.
