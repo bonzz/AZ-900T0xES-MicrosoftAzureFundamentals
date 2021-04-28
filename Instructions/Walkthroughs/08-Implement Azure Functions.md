@@ -1,8 +1,3 @@
----
-wts:
-    title: '08 - Implementar Azure Functions (5 minutos)'
-    module: 'Módulo 03: Describir las soluciones principales y las herramientas de administración'
----
 # 08 - Implementar Azure Functions
 
 En este tutorial, crearemos una aplicación de funciones para mostrar un mensaje de saludo cuando haya una solicitud HTTP. 
