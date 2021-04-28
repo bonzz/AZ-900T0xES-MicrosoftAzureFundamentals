@@ -1,8 +1,3 @@
----
-wts:
-    title: '02 - Crear una aplicación web (10 minutos)'
-    module: 'Módulo 02: Servicios principales de Azure (Cargas de trabajo)'
----
 # 02 - Crear una aplic. web
 
 En este tutorial, crearemos una nueva aplic. web que ejecute un contenedor Docker. El contenedor muestra un mensaje de bienvenida. 
