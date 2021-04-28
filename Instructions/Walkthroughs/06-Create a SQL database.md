@@ -1,9 +1,3 @@
----
-wts:
-    title: '06 - Creación de una base de datos SQL (5 minutos)'
-    module: 'Módulo 02: Servicios principales de Azure (Cargas de trabajo)'
----
-
 # 06 - Crear una base de datos SQL
 
 En este tutorial, crearemos una base de datos SQL en Azure y luego consultaremos los datos en esa base de datos.
