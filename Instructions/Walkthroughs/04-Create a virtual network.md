@@ -1,13 +1,13 @@
 ---
 wts:
-    title: '03 - Crear de una red virtual'
-    module: 'Módulo 02 - Servicios principales de Azure'
+    title: '04 - Crear una red virtual (20 minutos)'
+    module: 'Módulo 02: Servicios principales de Azure (Cargas de trabajo)'
 ---
-# 03 - Crear una red virtual
+# 04: Crear una red virtual
 
 En este tutorial crearemos una red virtual, implementaremos dos máquinas virtuales en esa red virtual y luego las configuraremos para permitir que una máquina virtual haga ping a la otra dentro de esa red.
 
-# Tarea 1: Crear una red virtual
+# Tarea 1: Crear una red virtual (20 minutos)
 
 En esta tarea, crearemos una red virtual. 
 
@@ -23,13 +23,14 @@ En esta tarea, crearemos una red virtual.
     | Espacio de direcciones |**10.1.0.0/16** |
     | Suscripción | **Seleccione su suscripción** |
     | Grupo de recursos | **myRGVNet** (crear nuevo) |
-    | Ubicación | **Este de EE. UU.** |
+    | Ubicación | **(EE. UU.) Este de EE. UU.** |
     | Subred - Nombre | **predeterminado** |
     | Rango de dirección de subred | **10.1.0.0/24** |
 
-    ![Captura de pantalla de la hoja Crear red virtual con los campos predeterminados.](../images/0301.png)
+    ![Captura de pantalla del paso "Básico" de la hoja Crear red virtual con los campos predeterminados.](../images/0301a.png)
+    ![Captura de pantalla del paso "Dirección IP" de la hoja Crear red virtual con los campos predeterminados.](../images/0301b.png)
 
-5. Haga clic en el botón **Revisar + Crear**. Asegúrese de que la validación sea exitosa.
+5. Haga clic en el botón **Revisar y crear**. Asegúrese de que la validación sea exitosa.
 
 6. Haga clic en el botón **Crear** para implementar la red virtual. 
 
@@ -39,7 +40,7 @@ En esta tarea, crearemos una red virtual.
 
 En esta tarea crearemos dos máquinas virtuales en la red virtual. 
 
-1. Desde la hoja **Todos los servicios**, busque **Maquinas virtuales** y luego haga clic en **Añadir**. 
+1. Desde la hoja **Todos los servicios**, busque **Maquinas virtuales** y luego haga clic en **Agregar**. 
 
 2. En la pestaña **Datos básicos**, complete la siguiente información (deje los valores predeterminados para todo lo demás):
 
@@ -48,7 +49,7 @@ En esta tarea crearemos dos máquinas virtuales en la red virtual.
    | Suscripción | **Elija su suscripción**  |
    | Grupo de recursos |  **myRGVNet** |
    | Nombre de la máquina virtual | **vm1**|
-   | Región | **Este de EE. UU.** |
+   | Región | **(EE. UU.) Este de EE. UU.** |
    | Imagen | **Centro de datos de Windows Server 2019** |
    | Nombre de usuario| **azureuser** |
    | Contraseña| **Pa$$w0rd1234** |
@@ -63,7 +64,7 @@ En esta tarea crearemos dos máquinas virtuales en la red virtual.
    | Red virtual | **vnet1** |
    |||
 
-4. Haga clic en **Revisar + Crear**. Después de que la validación sea exitosa, haga clic en **Crear**. Los tiempos de implementación pueden variar, pero generalmente la implementación demora entre tres y seis minutos.
+4. Haga clic en **Revisar y crear**. Después de que la validación sea exitosa, haga clic en **Crear**. Los tiempos de implementación pueden variar, pero generalmente la implementación demora entre tres y seis minutos.
 
 5. Supervise su implementación, pero continúe con el siguiente paso. 
 
@@ -99,7 +100,7 @@ En esta tarea, permitiremos conexiones ICMP y probaremos si las máquinas virtua
 
 7. Abra un símbolo del sistema de PowerShell en la máquina virtual haciendo clic en el botón **Inicio**, escribiendo **PowerShell**, haciendo clic con el botón derecho en **Windows PowerShell** en el menú del botón derecho y seleccionando **Ejecutar como administrador**.
 
-8. Intente hacer ping a vm2 (asegúrese de que vm2 se esté ejecutando). Recibirá un error que indica que la solicitud ha excedido el tiempo de espera.  El `ping` produce un error porque usa el **Protocolo de mensajes de control de Internet (ICMP)**. De forma predeterminada, ICMP no está permitido a través del firewall de Windows.
+8. Intente hacer ping a vm2 (asegúrese de que vm2 se esté ejecutando). Recibirá un error que indica que la solicitud ha excedido el tiempo de espera.  El `ping` falla porque usa el **Protocolo de mensajes de control de Internet (ICMP)**. De forma predeterminada, ICMP no está permitido a través del firewall de Windows.
 
 
    ```PowerShell
@@ -110,9 +111,9 @@ En esta tarea, permitiremos conexiones ICMP y probaremos si las máquinas virtua
 
     **Nota**: Ahora abrirá una sesión RDP en vm2 y permitirá conexiones entrantes ICMP
 
-9. Conéctese a **vm2** mediante RDP. Puede seguir los pasos **2 a 6**.
+9. Conectar a **vm2** mediante RDP. Puede seguir los pasos **2 a 6**.
 
-10. Abra un símbolo del sistema de **PowerShell** y habilite ICMP. Este comando permite conexiones entrantes ICMP a través del firewall de Windows.
+10. Abra un aviso de **PowerShell** y habilite ICMP. Este comando permite conexiones entrantes ICMP a través del firewall de Windows.
 
    ```PowerShell
    New-NetFirewallRule –DisplayName “Allow ICMPv4-In” –Protocol ICMPv4
@@ -127,6 +128,6 @@ En esta tarea, permitiremos conexiones ICMP y probaremos si las máquinas virtua
    ping vm2
    ```
 
-¡Enhorabuena! Configuró dos máquinas virtuales y las implementó en una red virtual. También configuró el firewall de Windows para que una de las máquinas virtuales permita las solicitudes de ping entrantes. 
+¡Enhorabuena! Ha configurado dos máquinas virtuales y las ha implementado en una red virtual. También ha configurado el firewall de Windows para que una de las máquinas virtuales permita las solicitudes de ping entrantes. 
 
-**Nota**: Para evitar costes adicionales, puede eliminar este grupo de recursos. Busque grupos de recursos, haga clic en su grupo de recursos y, a continuación, haga clic en **Eliminar grupo de recursos**. Compruebe el nombre del grupo de recursos y luego haga clic en **Eliminar**. Supervise las **Notificaciones** para ver cómo se realiza la eliminación.
+**Nota**: Para evitar costes adicionales, puede quitar este grupo de recursos. Busque grupos de recursos, haga clic en su grupo de recursos y, a continuación, haga clic en **Eliminar grupo de recursos**. Compruebe el nombre del grupo de recursos y luego haga clic en **Eliminar**. Supervise las **Notificaciones** para ver cómo se realiza la eliminación.

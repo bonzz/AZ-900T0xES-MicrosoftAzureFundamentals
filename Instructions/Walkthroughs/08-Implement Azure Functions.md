@@ -1,13 +1,13 @@
 ---
 wts:
-    title: '07 - Implementar Azure Functions'
-    module: 'Módulo 02 - Servicios principales de Azure'
+    title: '08 - Implementar Azure Functions (5 minutos)'
+    module: 'Módulo 03: Describir las soluciones principales y las herramientas de administración'
 ---
-# 07 - Implementar Azure Functions
+# 08 - Implementar Azure Functions
 
 En este tutorial, crearemos una aplicación de funciones para mostrar un mensaje de saludo cuando haya una solicitud HTTP. 
 
-# Tarea 1: Crear una aplicación de funciones
+# Tarea 1: Crear una aplicación Functions (5 minutos)
 
 En esta tarea, crearemos un aplicación de funciones.
 
@@ -24,10 +24,13 @@ En esta tarea, crearemos un aplicación de funciones.
     | Nombre de la aplicación de funciones | **función-xxxx** |
     | Publicar | **Código** |
     | Pila de tiempo de ejecución | **NET Core** |
+    | Versión | **3.1** |
     | Región | **Este de EE. UU.** |
-    | | |	
+    | | |
 
-1. Haga clic en **Revisar + Crear** y, después de una correcta validación, haga clic en **Crear** para empezar a aprovisionar e implementar su nueva aplicación de funciones de Azure.
+    **Nota** - Recuerde cambiar **xxxx** de modo que sea un **nombre de aplicación de Functions** único
+
+1. Haga clic en **Revisar y crear** y, después de una correcta validación, haga clic en **Crear** para empezar a aprovisionar e implementar su nueva aplicación de funciones de Azure.
 
 1. Espere la notificación de que el recurso ha sido creado.
 
@@ -41,15 +44,15 @@ En esta tarea, usaremos la función API de Webhook para mostrar un mensaje cuand
 
 1. Sobre la hoja **Aplicación de funciones**, haga clic en la aplicación de funciones recién creada. 
 
-1. En la hoja de la aplicación de funciones, en la sección **Funciones**, haga clic en **Funciones** y luego en **+ Añadir**.
+1. En la hoja de la aplicación de funciones, en la sección **Funciones**, haga clic en **Funciones** y luego en **+ Agregar**.
 
     ![Captura de pantalla del paso elegir un entorno de desarrollo en Azure Function para el panel de inicio dot net dentro de Azure Portal. Se resaltan los elementos de visualización para crear una nueva función en el portal. Los elementos resaltados son expandir la aplicación de funciones, agregar nuevas funciones, en el portal y el botón continuar.](../images/0702.png)
 
-1. Sobre la pestaña **Plantillas** de la hoja **Nueva función**, haga clic en **Desencadenador HTTP**. 
+1. En la pestaña **Plantillas** de la hoja **Nueva función**, haga clic en **Desencadenador HTTP**. 
 
     ![Captura de pantalla del paso Crear una función en Azure Functions para el panel de inicio dot net dentro de Azure Portal. La tarjeta de desencadenador HTTP se resalta para ilustrar los elementos de visualización utilizados para agregar un nuevo webhook a una función de Azure.](../images/0702a.png)
 
-1. Sobre la pestaña **Detalles** de la hoja **Nueva función**, acepte el nombre predeterminado **Nueva función** y el **Nivel de autorización** y luego haga clic en **Crear función**. 
+1. En la pestaña **Detalles** de la hoja **Nueva función**, acepte el nombre predeterminado **Nueva función** y el **Nivel de autorización** y luego haga clic en **Crear función**. 
 
     ![Captura de pantalla del paso Crear una función en Azure Functions para el panel de inicio dot net dentro de Azure Portal. El botón webhook + API y el botón Crear se resaltan para ilustrar los elementos de visualización que se usan para agregar un nuevo webhook a una función de Azure.](../images/0703.png)
 
@@ -81,4 +84,4 @@ En esta tarea, usaremos la función API de Webhook para mostrar un mensaje cuand
 
 ¡Enhorabuena! Ha creado una aplicación de funciones para mostrar un mensaje de saludo cuando hay una solicitud HTTP. 
 
-**Nota**: Para evitar costes adicionales, puede eliminar este grupo de recursos. Busque grupos de recursos, haga clic en su grupo de recursos y, a continuación, haga clic en **Eliminar grupo de recursos**. Compruebe el nombre del grupo de recursos y luego haga clic en **Eliminar**. Supervise las **Notificaciones** para ver cómo se realiza la eliminación.
+**Nota**: Para evitar costes adicionales, puede quitar este grupo de recursos. Busque grupos de recursos, haga clic en su grupo de recursos y, a continuación, haga clic en **Eliminar grupo de recursos**. Compruebe el nombre del grupo de recursos y luego haga clic en **Eliminar**. Supervise las **Notificaciones** para ver cómo se realiza la eliminación.
