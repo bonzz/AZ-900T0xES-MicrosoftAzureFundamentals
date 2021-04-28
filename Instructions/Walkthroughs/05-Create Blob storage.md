@@ -1,8 +1,3 @@
----
-wts:
-    title: '05 - Creación de almacenamiento de blobs (5 minutos)'
-    module: 'Módulo 02: Servicios principales de Azure (Cargas de trabajo)'
----
 # 05 - Crear almacenamiento de blobs
 
 En este tutorial, crearemos una cuenta de almacenamiento y luego trabajaremos con archivos de almacenamiento de blobs.
